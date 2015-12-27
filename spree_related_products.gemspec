@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_related_products'
-  s.version     = '3.2'
+  s.name        = 'solidus_related_products'
+  s.version     = '1.0'
   s.summary     = 'Allows multiple types of relationships between products to be defined'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author       = 'Brian Quinn'
-  s.email        = 'brian@railsdog.com'
-  s.homepage     = 'https://github.com/spree-contrib/spree_related_products'
-  s.license      = 'BSD-3'
+  s.author       = 'Mack Weldon'
+  s.email        = 'jason@mackweldon.com'
+  s.homepage     = 'https://github.com/mackweldon/solidus_related_products'
+  s.license      = 'MIT Licence'
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files -- spec/*`.split("\n")
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = false
 
-  s.add_dependency 'spree_backend', '~> 2.4.0'
+  s.add_dependency 'solidus_backend', '>= 1.0'
 
   s.add_development_dependency 'factory_girl', '4.4'
   s.add_development_dependency 'ffaker'
