@@ -5,7 +5,7 @@ require 'sass/rails'
 
 module SpreeRelatedProducts
   class Engine < Rails::Engine
-    engine_name 'spree_related_products'
+    engine_name 'solidus_related_products'
 
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
